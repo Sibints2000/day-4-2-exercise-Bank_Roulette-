@@ -6,5 +6,7 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
-print(names[0])
-random.randint(0, )
+print(len(names))
+
+
+# random.randint(0, x)
