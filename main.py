@@ -6,10 +6,12 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 # get total number of item
-num_items = len(names)
+# num_items = len(names)
 
 
-random_choice = random.randint(0, num_items - 1)
-person_who_will_pay = names[random_choice]
+# random_choice = random.randint(0, num_items - 1)
+# person_who_will_pay = names[random_choice]
+
+person_who_will_pay = random.choice(names)
 print(person_who_will_pay + " is going to buy the meal today.")
 
