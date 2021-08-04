@@ -9,4 +9,5 @@ names = names_string.split(", ")
 num_items = len(names)
 
 
-# random.randint(0, x)
+random_choice = random.randint(0, num_items - 1)
+print(random_choice)
