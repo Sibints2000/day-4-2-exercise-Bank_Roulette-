@@ -5,5 +5,5 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
-print(names)
+print(names[0])
 
